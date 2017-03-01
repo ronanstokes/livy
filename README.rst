@@ -1,6 +1,6 @@
 Welcome to Livy
 ===============
-***Note: build for CDH 5.7.6
+***Note: build for CDH 5.7.5
 
 Livy is an open source REST interface for interacting with `Apache Spark`_ from anywhere.
 It supports executing snippets of code or programs in a Spark context that runs locally or in `Apache Hadoop YARN`_.
