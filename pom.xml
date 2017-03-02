@@ -43,7 +43,7 @@
 
   <properties>
     <cdh.version>cdh5.7.2</cdh.version>
-    <!-- <release.version>0.3.1-${cdh.version}-SNAPSHOT</release.version> -->
+    <!--  <release.version>0.3.1-${cdh.version}-SNAPSHOT</release.version> -->
     <release.version>0.3.1-SNAPSHOT</release.version>
      <hadoop.version>2.6.0-cdh5.7.2</hadoop.version>
 
