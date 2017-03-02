@@ -23,7 +23,7 @@
 
   <groupId>com.cloudera.livy</groupId>
   <artifactId>livy-main</artifactId>
-  <version>0.3.1-SNAPSHOT</version>
+  <version>${release.version}</version>
   <packaging>pom</packaging>
 
   <name>livy-main</name>
@@ -42,9 +42,13 @@
   </organization>
 
   <properties>
-    <hadoop.version>2.6.0-cdh5.5.0</hadoop.version>
+    <cdh.version>cdh5.7.2</cdh.version>
+    <!-- <release.version>0.3.1-${cdh.version}-SNAPSHOT</release.version> -->
+    <release.version>0.3.1-SNAPSHOT</release.version>
+     <hadoop.version>2.6.0-cdh5.7.2</hadoop.version>
+
     <hadoop.scope>compile</hadoop.scope>
-    <spark.version>1.6.2</spark.version>
+    <spark.version>1.6.0-cdh5.7.2</spark.version>
     <commons-codec.version>1.9</commons-codec.version>
     <httpclient.version>4.5.2</httpclient.version>
     <httpcore.version>4.4.4</httpcore.version>
@@ -59,7 +63,7 @@
     <netty.version>4.0.29.Final</netty.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <py4j.version>0.9</py4j.version>
-    <scala-2.10.version>2.10.4</scala-2.10.version>
+    <scala-2.10.version>2.10.6</scala-2.10.version>
     <scala-2.11.version>2.11.8</scala-2.11.version>
     <scala.binary.version>2.10</scala.binary.version>
     <scala.version>${scala-2.10.version}</scala.version>
