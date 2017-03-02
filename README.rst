@@ -17,6 +17,14 @@ It supports executing snippets of code or programs in a Spark context that runs 
 .. _Pull requests: https://github.com/cloudera/livy/pulls
 .. _Wiki: https://github.com/cloudera/livy/wiki/Contributing-to-Livy
 
+Notes
+=============
+This builds a private drop for CDH 5.7.6
+
+After build is completed, use
+ mkDrop.sh "directory-name" to make a private release in the named directory
+
+
 
 Prerequisites
 =============
